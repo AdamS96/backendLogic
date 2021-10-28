@@ -44,6 +44,6 @@ public class ApplicantController {
     @PutMapping("/applicants")
     void updateAPhoneNumber(@RequestParam Long id, @RequestParam String telephoneNumber) {
         service.updateNumber(id, telephoneNumber);
-    }//UPDATE telephoneNumber
+    }//UPDATED telephoneNumber
 
 }
